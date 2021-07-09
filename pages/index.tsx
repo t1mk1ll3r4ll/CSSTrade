@@ -3,7 +3,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>
+    <>
         <title>
           Trade
         </title>
@@ -32,7 +32,11 @@ const index = () => {
             <button type="submit">Start Free Trial</button>
           </div>
 
-        <div className="roundRectangle"/>
+        <div className="roundRectangle">
+          <div>
+            
+          </div>
+        </div>
         <div className="divide">
           <h2>
             the publication
@@ -157,7 +161,7 @@ const index = () => {
             <div className="footer">
 
             </div>
-    </div>
+    </>
   )
 }
 
