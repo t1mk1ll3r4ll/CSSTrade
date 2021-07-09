@@ -485,13 +485,117 @@ padding: 1rem;
 
 }
 .footer{
+    
     max-width: 100%;
     min-width: 720px;
-        background: #f2f2f2;
+    background: #f2f2f2;
     width: 100%;
     height: 380px;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .logoFooter{
+        
+        background: #f2f2f2;
+        font-family: roboto;
+        font-weight: 700;
+        font-size: 24px;
+        margin: auto;
+    }
+    a{ 
+        width: 96px;
+        height: 20px;
+        font-family: roboto;
+        font-size:14px ;
+        text-align: left;
+        font-weight: 400;
+    }
+    p{
+        width: 103px;
+        height: 20px;
+        font-size: 14px;
+        font-family: roboto;
+        font-weight: 400;
+
+
+    }
+    .ProductContainer{
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+        h1{
+         font-size: 14px;
+         font-weight: 700;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: left;
+        }
+    }
+    .FeatureContainer{
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+        h1{
+         font-size: 14px;
+         font-weight: 700;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: left;
+        }
+
+    }
+    .ResoursesContainer{
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+        h1{
+         font-size: 14px;
+         font-weight: 700;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: left;
+        }
+
+    }
+    .CompanyContainer{
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+        h1{
+         font-size: 14px;
+         font-weight: 700;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: left;
+        }
+
+    }
+    }
+
+
 @media only screen and (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        padding: 1rem;           
+         justify-content: flex-start;
+        
+    }
     .blackContainer{
         flex-direction: column;
         height: auto;

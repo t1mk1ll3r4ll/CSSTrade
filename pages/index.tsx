@@ -160,7 +160,60 @@ const index = () => {
                <div></div>
              </div>
             <div className="footer">
+              <div className="logoFooter">
+                <div>
+                  <div>Trade</div>
+                  <a>
+                    © 2010 — 2020
+                  </a>
+                  <p>
+                    Privacy — Terms
+                  </p>
+                  </div>
+              </div>
+                <div className="ProductContainer">
+                  <h1>Product</h1>
+                  <div>
+                  <a>Product</a>
+                  <a>Product</a>
+                  <a>Product</a>
+                  </div>
 
+                </div>
+                <div className="FeatureContainer">
+                  <h1>Feature</h1>
+                  <div>
+                    <a>Feature</a>
+                    <a>Feature</a>
+                    <a>Feature</a>
+                  </div>
+                </div>
+                <div className="ResoursesContainer">
+                  <h1>
+                  Resources
+                  </h1>
+                    <div>
+                      <a>Resources</a>
+                      <a>Resources</a>
+                      <a>Resources</a>
+                    </div>
+                  </div>
+                <div className="CompanyContainer">
+                  <h1>
+                    Company
+                  </h1>
+                  <div>
+                  <a>
+                    Company
+                  </a>
+                  <a>
+                    Company
+                  </a>
+                   <a>
+                    Company
+                  </a>
+                  </div>
+                    </div>
             </div>
           </div>
     </>
