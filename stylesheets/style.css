@@ -1,4 +1,6 @@
 header {
+  max-width: 100%;
+  min-width: 720px;
   width: 100vw;
   background: #FFFFFF;
   display: -webkit-box;
@@ -34,6 +36,8 @@ header {
 }
 
 .BigText {
+  max-width: 100%;
+  min-width: 720px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,8 +59,11 @@ header {
 }
 
 .smallText {
+  max-width: 100%;
+  min-width: 720px;
   width: 506px;
   height: 51px;
+  text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
   margin: auto;
@@ -72,6 +79,8 @@ header {
 }
 
 .roundRectangle {
+  max-width: 100%;
+  min-width: 720px;
   width: 800px;
   height: 343px;
   border-radius: 4px;
@@ -90,6 +99,8 @@ header {
 }
 
 .divide {
+  max-width: 100%;
+  min-width: 720px;
   width: 100vw;
   height: 300px;
   background: #f2f2f2;
@@ -130,6 +141,8 @@ header {
 }
 
 .greyContainer {
+  max-width: 100%;
+  min-width: 720px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -222,6 +235,8 @@ header {
 }
 
 .blackContainer {
+  max-width: 100%;
+  min-width: 720px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,6 +331,8 @@ header {
 }
 
 .container {
+  max-width: 100%;
+  min-width: 720px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,6 +354,8 @@ header {
 }
 
 .startfree {
+  max-width: 100%;
+  min-width: 720px;
   width: 100%;
   height: 100px;
   margin: auto;
@@ -358,6 +377,8 @@ header {
 }
 
 body {
+  max-width: 100%;
+  min-width: 720px;
   width: 100%;
   max-width: 100vw;
   height: 100vw;
@@ -402,6 +423,8 @@ body {
 }
 
 .valuePropContainer {
+  max-width: 100%;
+  min-width: 720px;
   width: 100%;
   height: 200px;
   background: #f2f2f2;
@@ -416,6 +439,8 @@ body {
 }
 
 .containerProposition {
+  max-width: 100%;
+  min-width: 720px;
   background: #f2f2f2;
   width: 100%;
   display: -webkit-box;
@@ -439,6 +464,8 @@ body {
 }
 
 .lettersProposition {
+  max-width: 100%;
+  min-width: 720px;
   background: #f2f2f2;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,6 +494,8 @@ body {
 }
 
 .lettersPropositiona {
+  max-width: 100%;
+  min-width: 720px;
   background: #f2f2f2;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,6 +520,8 @@ body {
 }
 
 .whiteBanner {
+  max-width: 100%;
+  min-width: 720px;
   background: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -538,6 +569,8 @@ body {
 }
 
 .greyBanner {
+  max-width: 100%;
+  min-width: 720px;
   background: #f2f2f2;
   width: 100%;
   height: 240px;
@@ -607,6 +640,8 @@ body {
 }
 
 .lineSeparator {
+  max-width: 100%;
+  min-width: 720px;
   background: #f2f2f2;
   height: 1px;
   width: 100%;
@@ -631,6 +666,8 @@ body {
 }
 
 .footer {
+  max-width: 100%;
+  min-width: 720px;
   background: #f2f2f2;
   width: 100%;
   height: 380px;
