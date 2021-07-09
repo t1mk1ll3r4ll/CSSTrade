@@ -376,8 +376,14 @@ header {
   height: 60px;
 }
 
-body {
+.global {
   max-width: 100%;
+  min-width: 720px;
+  width: 100%;
+  max-width: 100vw;
+}
+
+body {
   min-width: 720px;
   width: 100%;
   max-width: 100vw;

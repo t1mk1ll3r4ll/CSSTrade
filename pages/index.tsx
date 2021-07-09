@@ -4,6 +4,7 @@ import React from 'react'
 const index = () => {
   return (
     <>
+    <div className="global">
         <title>
           Trade
         </title>
@@ -161,6 +162,7 @@ const index = () => {
             <div className="footer">
 
             </div>
+          </div>
     </>
   )
 }
